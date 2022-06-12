@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/43922.png">
+    <link
+      rel="stylesheet"
+      href="./assets/icon/themify-icons-font/themify-icons/themify-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>BAND-clone</title>
+  </head>
+  <body>
+    <div id="main">
+      <!-- modal buy tickets -->
+
+      <div id="modal-container">
+        <div id="modal-content">
+          <!-- model-content and btn close modal -->
+          <div class="close-modal js-close-modal">
+            <i class="ti-close btn-close-modal btn-hover"></i>
+          </div>
+          <div id="header-modal">
+            <h2><i class="ti-bag"></i> Tickets</h2>
+          </div>
+
+          <!-- body-modal -->
+          <div id="body-modal">
+            <form action="" id="form-input-modal">
+              <label for="input-many">
+                <i class="ti-shopping-cart"></i> Tickets, $15 per person
+              </label>
+              <input
+                id="input-many"
+                class="input-modal"
+                type="text"
+                placeholder="How many?"
+              />
+              <label for="input-email">
+                <i class="ti-user"></i>
+                Send To
+              </label>
+              <input
+                id="input-email"
+                class="input-modal"
+                type="text"
+                placeholder="Enter email"
+              />
+              <button class="btn-form-modal btn-hover">Pay <i class="ti-check"></i></button>
+            </form>
+
+            <!-- footer-modal -->
+            <div id="footer-modal">
+              <button class="btn-hover js-close-modal">Close <i class="ti-close btn-close"></i></button>
+              <p>Need <a href="#">help?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- header -->
+      <div id="header" class="js-header">
+        <ul id="nav">
+          <li class="btn-hover"><a href="#main">Home</a></li>
+          <li class="btn-hover"><a href="#band">Band</a></li>
+          <li class="btn-hover"><a href="#tour">Tour</a></li>
+          <li class="btn-hover"><a href="#contact">Contact</a></li>
+          <li class="btn-hover">
+            <a >More <i class="ti-angle-down icdown"></i></a>
+            <ul class="subnav">
+              <li class="btn-hover"><a href="#">Merchandise</a></li>
+              <li class="btn-hover"><a href="#">Extras</a></li>
+              <li class="btn-hover"><a href="#">Media</a></li>
+              <li class="btn-hover" id="end-nav">
+                <a href="#">Musical toy</a>
+                <i class="icdown2 ti-angle-right"></i>
+                <ul class="subnav2">
+                  <li class="btn-hover"><a href="#">Guitar</a></li>
+                  <li class="btn-hover"><a href="#">Drum</a></li>
+                  <li class="btn-hover"><a href="#">Camera</a></li>
+                  <li class="btn-hover"><a href="#">Flock</a></li>
+                  <li class="btn-hover"><a href="#">Piano</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- search -->
+        <div id="search">
+          <i class="icsearch ti-search"></i>
+        </div>
+        <div class="hiden-list">
+          <i class="ti-view-list"></i>
+        </div>
+      </div>
+
+      
+
+      <!-- slider -->
+      <div id="slides">
+      <div class="slider">
+        <img src="./assets/img/chicago.jpg" alt="">
+        <div class="content-slider">
+          <h3>Chicago</h3>
+          <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+        </div>
+        
+      </div>
+      <div class="slider">
+        <img src="./assets/img/la.jpg" alt="">
+        <div class="content-slider">
+          <h3>Los Angeles</h3>
+          <p><b>We had the best time playing at Venice Beach!</b></p>
+        </div>
+        
+      </div>
+
+      <div class="slider">
+        <img src="./assets/img/ny.jpg" alt="">
+        <div class="content-slider">
+          <h3>New York</h3>
+          <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+      <!-- content -->
+      <div id="content">
+        <div class="subcontent" id="band">
+          <div id="about">
+            <div class="title-content">
+              <h2>the band</h2>
+              <p><i>We love music</i></p>
+              <p>
+                We have created a fictional band website. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+              </p>
+            </div>
+
+            <div id="members">
+              <div class="detail-member">
+                <p>Name</p>
+                <img src="./assets/img/bandmember.jpg" alt="" />
+              </div>
+              <div class="detail-member">
+                <p>Name</p>
+                <img src="./assets/img/bandmember.jpg" alt="" />
+              </div>
+              <div class="detail-member">
+                <p>Name</p>
+                <img src="./assets/img/bandmember.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tour">
+          <div class="subcontent-tour">
+            <div id="content-tour">
+              <div class="title-content">
+                <h2>Tour Dates</h2>
+                <p><i>Remember to book your tickets!</i></p>
+              </div>
+            </div>
+            <br />
+            <ul>
+              <li>
+                <p>September</p>
+                <span>Sold out</span>
+              </li>
+              <li>
+                <p>October</p>
+                <span>Sold out</span>
+              </li>
+              <li>
+                <p>November</p>
+                <span>3</span>
+              </li>
+            </ul>
+          </div>
+          <div id="schedule">
+            <div class="schedule-item">
+              <img src="/assets/img/newyork.jpg" alt="newyork" />
+              <div class="detail-schedule-item">
+                <p>New York</p>
+                <p>Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn-hover btn-buy js-btn-buy">Buy Tickets</button>
+              </div>
+            </div>
+
+            <div class="schedule-item">
+              <img src="/assets/img/paris.jpg" alt="newyork" />
+              <div class="detail-schedule-item">
+                <p>Paris</p>
+                <p>Sat 28 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn-hover btn-buy js-btn-buy">Buy Tickets</button>
+              </div>
+            </div>
+
+            <div class="schedule-item">
+              <img src="/assets/img/sanfran.jpg" alt="newyork" />
+              <div class="detail-schedule-item">
+                <p>San Francisco</p>
+                <p>Sun 29 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn-hover btn-buy js-btn-buy">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact">
+          <div id="contact-item">
+            <div class="title-content">
+              <h2>CONTACT</h2>
+              <p><i>Fan? Drop a note!</i></p>
+            </div>
+            <div id="contact-container">
+              <div id="contact-info">
+                <ul>
+                  <li>
+                    <p><i class="ti-location-pin"></i> Chicago, US</p>
+                  </li>
+                  <li>
+                    <p><i class="ti-mobile"></i> Phone: +00 151515</p>
+                  </li>
+                  <li>
+                    <p><i class="ti-email"></i> Email: mail@mail.com</p>
+                  </li>
+                </ul>
+              </div>
+              <div id="input-contact">
+                <form action="">
+                  <input
+                    class="input-form"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    required
+                  />
+                  <input
+                    class="input-form"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <input
+                    class="input-form"
+                    type="text"
+                    name="mess"
+                    id="mess"
+                    placeholder="Message"
+                    required
+                  />
+                  <input class="btn-hover submit-contact" type="submit" value="Send" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="map"></div>
+      </div>
+
+      <div id="footer">
+          <div id="sosial">
+              <a href=""><i class="ti-facebook"></i></a>
+              <a href=""><i class="ti-instagram"></i></a>
+              <a href=""><i class="ti-youtube"></i></a>
+              <a href=""><i class="ti-pinterest"></i></a>
+              <a href=""><i class="ti-twitter-alt"></i></a>
+              <a href=""><i class="ti-linkedin"></i></a>
+          <p  id="supplier">Powered by <a href="">w3.css</a></p>
+          <p  id="supplier">developed by : Cao Quốc Đạt</p>
+          <p  id="supplier"><a href="https://www.facebook.com/caoquocdat12092001">https://www.facebook.com/caoquocdat12092001</a></p>
+          
+
+          </div>
+
+      </div>
+    </div>
+
+    <!-- hiển thị modal -->
+    <script>
+      const btnBuys = document.querySelectorAll(".js-btn-buy");
+      const btnCloses = document.querySelectorAll(".js-close-modal");
+      const container = document.querySelector("#modal-container");
+
+
+      const opentModal = () => {
+        container.style.display = "block";
+      }
+
+      const closeModal = () => {
+        container.style.display = "none";
+      }
+
+      container.addEventListener("click", closeModal)
+
+      for (const btnBuy of btnBuys) {
+          btnBuy.addEventListener("click", opentModal)
+      }
+
+      for (const btnClose of btnCloses) {
+          btnClose.addEventListener("click", closeModal)
+      }
+
+      //ngăn sự kiện nổi bọt
+      document.querySelector("#modal-content").addEventListener("click", function (event) {
+        event.stopPropagation()
+      })
+
+      // container.addEventListener("click", function (event) {
+      //   event.stopPropagation()
+      // })
+
+
+    </script>
+
+    <!-- slide -->
+    <script>
+      window.onload = (event) =>{
+        var index = 0;
+        let sliders = document.querySelectorAll(".slider");
+        playSlider()
+
+        function playSlider() {
+          for (var i = 0 ; i < sliders.length; i++) {
+            sliders[i].style.display = "none";
+        }
+
+        index++;
+          if(index > sliders.length){
+            index = 1;
+          }
+          sliders[index-1].style.display = "flex";
+          setTimeout(playSlider, 2000);
+        }
+      };
+
+    </script>
+
+    <!-- ẩn hiện menu mobile -->
+
+    <script>
+      const btnShowMenu = document.getElementsByClassName("hiden-list")
+      const header = document.getElementById("header")
+      const itemMenus = document.querySelectorAll("#nav li a[href*='#']")
+
+      const openMenu = () => {
+
+
+
+        if(header.style.overflow === "" || header.style.overflow === "hidden"){
+          header.style.height = "auto";
+          header.style.overflow = "visible";
+        }
+        else{
+          header.style.height = "46.5px";
+          header.style.overflow = "hidden";
+        }
+
+      } 
+
+      for (const itemMenu of itemMenus) {
+          itemMenu.addEventListener("click", function (event) {
+            if(itemMenu.attributes.href.value != "#") {
+                openMenu()
+            }else {
+              return;
+            }
+          })
+        }
+
+      btnShowMenu[0].addEventListener("click", openMenu)
+    </script>
+  </body>
+</html>
